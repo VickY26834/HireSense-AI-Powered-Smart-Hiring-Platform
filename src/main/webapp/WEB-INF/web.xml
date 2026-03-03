@@ -13,7 +13,7 @@
 	</listener>
 	<context-param>
 		<param-name>dbUrl</param-name>
-		<param-value>mysql://root:apZovMLxUlcYeVfJLDGXlpveOqwRtJEU@mysql-8nyx.railway.internal:3306/railway</param-value>
+		<param-value>mysql://root:apZovMLxUlcYeVfJLDGXlpveOqwRtJEU@shuttle.proxy.rlwy.net:23786/railway</param-value>
 	</context-param>
 <context-param>
 		<param-name>username</param-name>
