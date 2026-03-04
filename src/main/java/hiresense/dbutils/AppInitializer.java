@@ -14,7 +14,6 @@ public class AppInitializer implements ServletContextListener {
         String password = System.getenv("DB_PASSWORD");
         String appName = System.getenv("APP_NAME");
 		DBConnection.openConnection(dbUrl, username, password);
-		String appName=ctxt.getInitParameter("appName");
 		ctxt.setAttribute("appName", appName);
 	}
 
