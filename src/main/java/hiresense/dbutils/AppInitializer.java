@@ -8,9 +8,11 @@ public class AppInitializer implements ServletContextListener {
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
 		ServletContext ctxt=sce.getServletContext();
-		String dbUrl=ctxt.getInitParameter("dbUrl");
-		String username=ctxt.getInitParameter("username");
-		String password=ctxt.getInitParameter("password");
+		//changes
+		String dbUrl = System.getenv("DB_URL");
+        String username = System.getenv("DB_USER");
+        String password = System.getenv("DB_PASSWORD");
+        String appName = System.getenv("APP_NAME");
 		DBConnection.openConnection(dbUrl, username, password);
 		String appName=ctxt.getInitParameter("appName");
 		ctxt.setAttribute("appName", appName);
