@@ -13,7 +13,7 @@
 	</listener>
 	<context-param>
 		<param-name>dbUrl</param-name>
-		<param-value>mysql://root:apZovMLxUlcYeVfJLDGXlpveOqwRtJEU@shuttle.proxy.rlwy.net:23786/railway</param-value>
+		<param-value>jdbc:mysql://localhost:3306/hiresense_db</param-value>
 	</context-param>
 <context-param>
 		<param-name>username</param-name>
@@ -21,7 +21,7 @@
 	</context-param>
 	<context-param>
 		<param-name>password</param-name>
-		<param-value>apZovMLxUlcYeVfJLDGXlpveOqwRtJEU</param-value>
+		<param-value>root</param-value>
 	</context-param>
 	<context-param>
 		<param-name>appName</param-name>
