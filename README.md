@@ -85,3 +85,5 @@ Email notifications
 Dashboard analytics
 
 Role-based access improvements
+
+***if you are using these codes, manually configure your database credentials as your system configurations***
